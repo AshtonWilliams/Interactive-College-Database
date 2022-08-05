@@ -5,21 +5,21 @@ The database is for a student to register for classes. The user can interact wit
 
 1.	Add a student:
 
-  a.	Functionality - Allows the user to add a new student to the DB.
-  b.	Input - All the information for the student shown above (First_Name, Last_Name, etc.). An available UID will be provided for them.
-  c.	Output – The new student will be added to the STUDENT table with a message upon successful completion. If the student already exists or insertion fails, display a message.
+  Functionality - Allows the user to add a new student to the DB.
+  Input - All the information for the student shown above (First_Name, Last_Name, etc.). An available UID will be provided for them.
+  Output – The new student will be added to the STUDENT table with a message upon successful completion. If the student already exists or insertion fails,    display a message.
 
 2.	Assign an existing class to a student (register):
 
-  a.	Functionality - Allows the user to add an existing class to an existing student. 
-  b.	Input - The UID of the existing student, the existing class CRN if the student was found, and a valid grade if the CRN was found (valid grade = A, B, C, D, F, REG, PROG). 
-  c.	Output - The new class will be added to the STUDENT_COURSES table with a message notifying the user. If the student or class is not found, a message will display.
+  Functionality - Allows the user to add an existing class to an existing student. 
+  Input - The UID of the existing student, the existing class CRN if the student was found, and a valid grade if the CRN was found (valid grade = A, B, C, D, F, REG, PROG). 
+  Output - The new class will be added to the STUDENT_COURSES table with a message notifying the user. If the student or class is not found, a message will display.
 
 3.	Remove an existing class from a student (withdrawal from a class):
 
-  a.	Functionality - Allows the user to remove an existing class from an existing student. 
-  b.	Input - The UID of the existing student, then input the existing class’s CRN to remove.
-  c.	Output - If the student is found and registered for that class, remove the class from the STUDENT_COURSES table with a message if completed. If failed, display a message.
+  Functionality - Allows the user to remove an existing class from an existing student. 
+  Input - The UID of the existing student, then input the existing class’s CRN to remove.
+  Output - If the student is found and registered for that class, remove the class from the STUDENT_COURSES table with a message if completed. If failed, display a message.
 
 
 
