@@ -1,7 +1,7 @@
 # Interactive-College-Database
 An interactive college database I made in python with SQLite for a class in college.
 
-The database is for a student to register for classes. The user can interact with the database using the 3 options below:
+The database is students to register for classes. The user can interact with the database using the 3 options below:
 
 1.	Add a student:
 
